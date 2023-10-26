@@ -10,13 +10,13 @@ export default{
     
         <h6>- Dashbool -</h6>
 
-        <div>
+        <div class="d-flex">
 
-            <img src="/img/man.jpg" alt="">
+            <img src="/img/man.png" alt="">
 
-            <div>
+            <div class="d-flex flex-column m-auto mx-3">
                 <span>Welcome</span>
-                <span>Mario Rossi</span>
+                <span class="fw-bold">Mario Rossi</span>
             </div>
 
         </div>
@@ -84,9 +84,11 @@ section{
     color: white;
 
     img{
-        height: 100px;
-        width: 100px;
+        height: 70px;
+        width: 70px;
+        margin: 10px 0;
         border-radius: 50px;
+        border: 2px solid white;
     }
 
     hr{
