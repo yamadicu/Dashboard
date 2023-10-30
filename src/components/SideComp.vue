@@ -5,7 +5,7 @@ export default{
 </script>
 
 <template>
-    <section>
+    <aside>
 
     
         <h6>- Dashbool -</h6>
@@ -16,7 +16,7 @@ export default{
 
             <div class="d-flex flex-column m-auto mx-3">
                 <span>Welcome</span>
-                <span class="fw-bold">Mario Rossi</span>
+                <span class="fs-6 fw-bold">Mario Rossi</span>
             </div>
 
         </div>
@@ -70,22 +70,22 @@ export default{
 
         </div>
 
-    </section>
+    </aside>
 </template>
 
 <style lang="scss">
 
-section{
-    width: fit-content;
+aside{
+    width: 10vw;
     height: 100vh;
-    padding: 0 10px;
+    padding: 0 5px;
     padding-top: 10px;
     background-color: rgb(42 64 84);
     color: white;
 
     img{
-        height: 70px;
-        width: 70px;
+        height: 50px;
+        width: 50px;
         margin: 10px 0;
         border-radius: 50px;
         border: 2px solid white;
